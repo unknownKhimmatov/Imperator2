@@ -1,0 +1,341 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bodyAddres {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.item_contact {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px 0px;
+}
+
+/* title_contact */
+.title_contact h2 {
+    font-size: 2.5rem;
+    height: 192px;
+    width: 450px;
+    margin-bottom: 30px;
+
+
+}
+
+/* adddres_all */
+.adddres_all {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.adddres_all li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.adres_input {
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.addres_item_inout {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.addres_item_inout input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 1rem;
+    color: rgb(78, 78, 78);
+}
+
+.addres_item_inout textarea {
+    width: 100%;
+    height: 160px;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+}
+
+.addres_item_inout button {
+    width: 40%;
+    height: 50px;
+    border: none;
+    background: rgba(255, 192, 0, 1);
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* profil */
+.profil {
+    width: 100%;
+    height: 60vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_profil {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.izminit {
+    width: 230px;
+    height: 40px;
+    border: none;
+    background: rgba(255, 192, 0, 1);
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 600;
+
+}
+
+.inpIzminit {
+    color: rgba(255, 192, 0, 1);
+}
+
+.item_profil input {
+    height: 44px;
+    width: 264px;
+    outline: none;
+    padding: 5px;
+    color: rgb(62, 61, 61);
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 6px;
+}
+
+.item_profil label {
+    font-weight: 600;
+}
+
+/* left_profil */
+.left_profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center_profil {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.right_profil {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.password {
+    position: relative;
+}
+
+.icone_see {
+    position: absolute;
+    top: 400px;
+    left: 850px;
+    cursor: pointer;
+}
+
+/* registratsiya */
+.registratsiya {
+    background: #fafafa;
+}
+
+.title_reg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #fafafa;
+    padding: 40px 0px;
+    font-size: 1.3rem;
+
+}
+
+.registratsiya {
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+    /* gap: 50px; */
+}
+
+.right_item_register {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.inp_register {
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inp_register input {
+    height: 50px;
+    width: 90%;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 5px 5px 5px 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: gray;
+    outline: none;
+}
+
+.pass_reg {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.pass_reg label {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.button_reg {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+
+}
+
+.button_reg button {
+    height: 46px;
+    width: 220px;
+    border: none;
+    border-radius: 6px;
+    background: #FFC000;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+/* kirish */
+.kirish {
+    background-color: #fafafa;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kirish_item {
+    display: flex;
+    width: 80%;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+
+.kirish_main {
+    width: 50%;
+    /* border: 1px solid black; */
+
+}
+
+.left_img_kirish {
+    width: 100%;
+}
+
+.left_img_kirish img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rigth_kirish_inp {
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.rigth_kirish_inp input {
+    width: 100%;
+    height: 55px;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    border: 2px solid rgba(196, 196, 196, 0.53);
+    border-radius: 6px;
+
+}
+
+.pass_kirish {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pass_kirish label {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.pass_kirish {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.button_kirish {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+
+
+.uploderImg {
+    display: none;
+}
+
+.labelFile {
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background: #FFC000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

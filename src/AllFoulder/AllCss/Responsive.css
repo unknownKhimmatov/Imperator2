@@ -1,0 +1,339 @@
+@media screen and (max-width: 420px) {
+    .body {
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    #kirish {
+        display: none;
+    }
+
+    #register {
+        display: none;
+    }
+
+
+
+    .korzinka_push{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    /* navbar  */
+    .shop_card {
+        position: absolute;
+        right: 20px;
+        top: 30px;
+    }
+
+    .top_main {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        top: 65px;
+        width: 390px;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        padding-left: 35px;
+        overflow: hidden;
+        height: 0;
+        transition: .3s;
+        z-index: 11;
+    }
+
+    .sms {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .active {
+        z-index: 11;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        top: 65px;
+        width: 390px;
+        background-color: #fff;
+        left: 0;
+        padding-left: 20px;
+        height: auto;
+        padding-left: 35px;
+        transition: .3s;
+    }
+
+
+    ul li a {
+        font-weight: 600;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    .register,
+    .kirish {
+        /* position: absolute; */
+        display: none;
+    }
+
+    /* main home page  */
+    .header_main {
+        background-color: #fff;
+    }
+
+    .all_product__home {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .img_home img {
+        top: 143px;
+        position: absolute;
+        left: 30px;
+        width: 75%;
+        height: 450px;
+        object-fit: cover;
+    }
+
+    .res_logo {
+        display: block;
+
+    }
+
+    .brand {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+
+    }
+
+    /* home page title and desc  */
+
+    .container {
+        width: 410px;
+    }
+
+    .item_all__product {
+        width: 410px;
+        background-color: inherit;
+        background: rgba(242, 243, 247, 1);
+        padding: 20px;
+    }
+
+    .desc_main {
+        width: 300px;
+        color: #000;
+    }
+
+    .desc {
+        width: 300px;
+    }
+
+    /* xizmatlar  */
+
+    .xizmatlar {
+        display: flex;
+        justify-content: start;
+        width: 700px;
+    }
+
+    .ser_title {
+        width: 100%;
+        justify-content: start;
+        margin-left: 20px;
+
+    }
+
+    .ser_title h2 {
+        width: 200px;
+    }
+
+    .ser_item__parent {
+        width: 100%;
+        overflow-x: scroll;
+        display: flex;
+        /* gap: 10px; */
+    }
+
+    .servises_item {
+        width: 230px;
+    }
+
+    /* best_product */
+    .best_product {
+        display: flex;
+        justify-content: start;
+
+    }
+
+    .res_title {
+        display: flex;
+        width: 100%;
+    }
+
+    .item_best__product {
+        width: 100%;
+        overflow-x: scroll;
+        display: flex;
+        gap: 7px;
+        padding-left: 7px;
+
+    }
+
+    .item_best {
+        width: 230px;
+    }
+
+    .title_best {
+        font-size: .9rem;
+        width: 160px;
+        color: #000;
+    }
+
+    .subtitle_best {
+        display: none;
+    }
+
+    .point i {
+        font-size: .8rem;
+    }
+
+    #dobavButton {
+        font-size: .8rem;
+    }
+
+
+    /* footer  */
+    .footer {
+        width: 414px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_item {
+        width: 414px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* left_footer */
+    .left_footer {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+
+    .left_footer p {
+        width: 300px;
+        font-weight: 600;
+    }
+
+    /* middleone */
+    .middleone {
+        order: 4;
+    }
+
+    .location {
+        display: block;
+    }
+
+    .middletwo {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .middletwo li {
+        font-weight: 800;
+        font-size: 1rem;
+    }
+
+    .work-div li {
+        display: none;
+    }
+
+    .local,
+    .email {
+        display: block;
+    }
+
+    .location {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 200px;
+        padding-left: 20px;
+        line-height: 15px;
+
+    }
+
+    .email-div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 200px;
+        padding-left: 20px;
+        line-height: 15px;
+    }
+
+    .location i,
+    .email-div i {
+        color: blue;
+        font-size: 1.1rem;
+    }
+
+    .hr {
+        width: 100%;
+        height: 1.3px;
+        background: #DBDEE7;
+
+    }
+
+    /* display none */
+    .middletwo h2 {
+        display: none;
+    }
+
+    .rigth_footer h2 {
+        display: none;
+    }
+
+    .middleone h2 {
+        display: none;
+    }
+
+    .rigth_footer {
+        display: none;
+    }
+
+    .left_footer h2,
+    .logo_fotr {
+        display: none;
+    }
+
+    .raqam {
+        display: none;
+    }
+
+    .eng_nav li {
+        display: block;
+    }
+
+    /* shoesPage */
+    .shoesPage {
+        width: 840px;
+    }
+}

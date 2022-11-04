@@ -1,0 +1,448 @@
+@media screen and (max-width: 420px) {
+
+    /* all style for tags */
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        /* border: .5px solid black; */
+    }
+
+
+
+    /* Card mini for responsive css */
+
+    .cardmini {
+        width: 100%;
+        background-color: #fff;
+        overflow: hidden;
+    }
+
+
+    /* main_page */
+    .main_page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .letft_page {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main_img {
+        width: 96%;
+        display: flex;
+        padding-left: 20px;
+    }
+
+    .main_img img {
+        width: 100%;
+    }
+
+    /* child_imgs */
+    .child_imgs {
+        display: none;
+    }
+
+    .rigth_page {
+        padding: 10px 10px 0px 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    /* rigth_page_buttom */
+    .rigth_page_buttom {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+
+
+    /* item_bottom */
+    .item_bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+
+    }
+
+    /* product */
+    .product {
+        width: 100%;
+    }
+
+
+    /* PushFreshProduct */
+    .katigory_compo {
+        width: 150%;
+    }
+
+    .PushFreshProduct {
+        width: 100%;
+        margin-left: 90px;
+    }
+
+    .item_fresh_product {
+        width: 100%;
+        overflow-x: scroll;
+        display: flex;
+        gap: 70px;
+        padding-left: 20px;
+    }
+
+    .img_katigoriya img {
+        width: 200px;
+    }
+
+    #subtitle_card {
+        display: none;
+    }
+
+    /* product_card */
+
+
+
+    .card_counter_main {
+        width: 100%;
+        gap: 4px;
+        /* border: .5px solid black; */
+
+    }
+
+    .product_card {
+        width: 100%;
+        margin: 0;
+        border-radius: 0px;
+        height: 140px;
+        display: flex;
+        padding: 0px 10px;
+        align-items: center;
+        /* border: .5px solid black; */
+    }
+
+
+    /* display: none; */
+    .remove_icone {
+        display: none;
+    }
+
+    .left_product_img {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: .5px solid black; */
+    }
+
+    .left_product_img img {
+        width: 100%;
+        height: 95%;
+        object-fit: cover;
+        border-radius: 12px;
+
+    }
+
+    /* top_product_desc */
+    .top_product_desc h3 {
+        width: 100%;
+    }
+
+
+
+    .center_product_desc {
+        width: 70%;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        margin-top: -20px;
+    }
+
+    .size_and_counterBtn {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: -17px;
+        /* border: 1px solid black; */
+
+    }
+
+    .size_dn {
+        position: absolute;
+        right: 0;
+    }
+
+    #trashIcone {
+        display: block;
+        font-size: 1.8rem;
+    }
+
+    .bottom_product_desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    /* size_and_price */
+    .size_and_price {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        height: 15px;
+        align-items: center;
+        position: absolute;
+    }
+
+    .price_and_size {
+        display: flex;
+        gap: 40px;
+        width: 100%;
+    }
+
+    /* counter_product */
+    .counter_product {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .size_and_price {
+        width: 60%;
+    }
+
+    .btn_counter {
+        width: 100px;
+        height: 30px;
+    }
+
+    .btn_counter button {
+        height: 100%;
+
+    }
+
+    .price_bold {
+        font-weight: 600;
+    }
+
+    .size_bold {
+        font-weight: 600;
+    }
+
+
+
+    /* allPrice */
+    .allPrice {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .all_price_main {
+        width: 94%;
+        padding-left: 17px;
+
+    }
+
+    .tasdiqlash {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tasdiqlash button {
+        width: 94%;
+    }
+
+    /* product_item_card */
+    .product_item_card {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+
+    /* ofarmileniya */
+    .ofarmileniya {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+    }
+
+    .main_ofarmileniya {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+    }
+
+    .contact_ofarmileniya {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 98%;
+    }
+
+    .card_item_ofarmileniya {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+
+    /* right_ofarmileniya */
+    .right_ofarmileniya {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inputs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button_crads {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .left_ofarmileniya {
+        width: 100%;
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* cards_type */
+    .cards_type {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 7px;
+        justify-content: center;
+    }
+
+    .left_cards {
+        width: 40%;
+        /* border: .3px solid black; */
+    }
+
+
+
+
+
+    /* all shop  */
+    .item_shop {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .all_shop .title h3 {
+        font-size: 3rem;
+    }
+
+    .item_img_shop {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .all_type {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .all_type_item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .item_img_shop img {
+        width: 80%;
+        border-radius: 16px;
+    }
+
+
+    .product_and_all_price {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .all_price_product {
+        width: 100%;
+    }
+
+    /* shoes_item */
+    .shoes_item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .shoes_item img {
+        width: 80%;
+        border-radius: 16px;
+    }
+
+    .shoes {
+        width: 80%;
+        border-radius: 16px;
+    }
+
+
+    .item_oplata {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .right_ofarmileniya {
+        width: 100%;
+    }
+
+
+    .inputs {
+        width: 100%;
+    }
+
+    .inputs input {
+        width: 100%;
+    }
+
+    /* card_item_zakaz */
+    .card_item_zakaz {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+
+}

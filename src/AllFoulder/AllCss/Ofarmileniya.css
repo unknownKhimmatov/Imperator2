@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contact_ofarmileniya {
+    display: flex;
+    gap: 60px;
+}
+
+.ofarmileniya {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E5E5E5;
+}
+
+.main_ofarmileniya {
+    width: 80%;
+    /* border: 1px solid black; */
+}
+
+.all_price_product {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 113px;
+    width: 460px;
+    background: rgba(255, 192, 0, 1);
+    padding: 15px;
+}
+
+/* top_all_price */
+.top_all_price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_all_price {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* cards type  */
+.cards_type {
+    width: 50%;
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.left_cards {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.left_cards img {
+    width: 150px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.left_cards input {
+    background-color: rgb(219, 219, 219);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
+/* inputs */
+/* right_ofarmileniya */
+.right_ofarmileniya {
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.inputs {
+    /* width: 84%; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputs input {
+    height: 50px;
+    width: 90%;
+    padding-left: 10px;
+    outline: none;
+    background: rgba(241, 241, 241, 1);
+    border: none;
+}
+
+.button_crads button {
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    background: rgba(255, 192, 0, 1);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.item_shop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.item_img_shop {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_img_shop img {
+    width: 22%;
+    border-radius: 7px;
+}
+
+
+.card_item_ofarmileniya {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Категории */
+
+.all_type {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.all_type_item {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.shoes_item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.shoes {
+    height: 80px;
+    width: 216px;
+    background: rgba(255, 192, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+
+}
+
+.shoes_item img {
+    width: 17%;
+    border-radius: 7px;
+}
+
+/* item_oplata */
+.oplata {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E5E5E5;
+    padding-bottom: 40px;
+}
+
+.item_oplata {
+    width: 80%;
+    display: flex;
+    gap: 140px;
+    align-items: center;
+}
+
+/* zakaz */
+.zakaz {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom_zakaz {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button_zakaz {
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    height: 100px;
+    align-items: center;
+}
+
+.button_zakaz button {
+    height: 46px;
+    width: 356px;
+    background: rgba(255, 192, 0, 1);
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.danger {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.danger_item {
+    width: 80%;
+    height: 40px;
+    background: rgba(255, 89, 89, 1);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
